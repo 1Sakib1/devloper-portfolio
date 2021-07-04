@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    font-family: 'Bona Nova', serif;
+}
+h1{
+    font-size: 60px;
+
+}
+.or{
+    color: rgb(255, 13, 4);
+}
+
+.w{color:rgb(204, 0, 255);size: 20px;}
+h2{size:40px;}
+section{display: flex;}
+
+.half-width{width: 50%; padding-left: 10%;}
+
+.half-width img{width:70%;}
+
+
+.half-width{color: rgb(0, 150, 250);}
+
+       .B{color: rgb(245, 245, 248); text-align: center; padding: 12px;
+    text-decoration: none; border-radius: 7px;
+        background-color: rgb(102, 168, 3); font-weight: 520;
+        background-image: linear-gradient(rgb(0, 68, 255), rgb(99, 26, 184));
+        scroll-padding:tomato ;   padding: 10px 40px;
+    }
+    .Top-bannar{ background-image: url(images/top-banner.png); background-repeat:no-repeat ;
+
+    }
