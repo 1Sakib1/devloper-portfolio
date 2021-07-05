@@ -10,9 +10,9 @@ h1{
     color: rgb(255, 13, 4);
 }
 
-.w{color:rgb(204, 0, 255);size: 20px; size: 100px;}
-h2{size:40px;}
-section{display: flex;margin-bottom: 200px;}
+.w{color:rgb(21, 1, 26);size: 20px; size: 100px;}
+h2{size:50px;}
+.flex{display: flex;margin-bottom: 200px;}
 
 .half-width{width: 50%; padding-left: 2%;}
 
@@ -37,4 +37,31 @@ section{display: flex;margin-bottom: 200px;}
         scroll-padding:tomato ;  scroll-padding-bottom: 5px; position: relative;top: 50px;}
     .the-undead{background-image: url(images/dream-bg.png);background-repeat: no-repeat;background-position: right;position: static;}
 
+    .orange{color: orange;}
+    .boxshaddo{
+        box-shadow:10px 10px 40px grey;
+        width: 50%;
+        margin-left:4%;
+        margin-right:4%; 
+        padding-left: 20px;
+        border-radius: 3px;
+      
+    }
+    .experience-area{
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    #border1{
+        border-left: 7px solid;
+        border-image:linear-gradient(blue, cyan) ;
+        border-image-slice: 1;
+    }
+    #border2{ border-left: 7px solid;
+        border-image:linear-gradient(rgb(147, 255, 6), rgb(238, 223, 16)) ;
+        border-image-slice: 1;
+}
+    footer p {
+        text-align:center;
+    }
     
