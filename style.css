@@ -3,18 +3,18 @@ body{
     font-family: 'Bona Nova', serif;
 }
 h1{
-    font-size: 60px;
+    font-size: 70px;
 
 }
 .or{
     color: rgb(255, 13, 4);
 }
 
-.w{color:rgb(204, 0, 255);size: 20px;}
+.w{color:rgb(204, 0, 255);size: 20px; size: 100px;}
 h2{size:40px;}
-section{display: flex;}
+section{display: flex;margin-bottom: 200px;}
 
-.half-width{width: 50%; padding-left: 10%;}
+.half-width{width: 50%; padding-left: 2%;}
 
 .half-width img{width:70%;}
 
@@ -22,11 +22,19 @@ section{display: flex;}
 .half-width{color: rgb(0, 150, 250);}
 
        .B{color: rgb(245, 245, 248); text-align: center; padding: 12px;
-    text-decoration: none; border-radius: 7px;
+        text-decoration: none; border-radius: 5px;  
         background-color: rgb(102, 168, 3); font-weight: 520;
         background-image: linear-gradient(rgb(0, 68, 255), rgb(99, 26, 184));
-        scroll-padding:tomato ;   padding: 10px 40px;
+        scroll-padding:tomato ;  scroll-padding-bottom: 5px; position: relative;top: 50px;;
     }
-    .Top-bannar{ background-image: url(images/top-banner.png); background-repeat:no-repeat ;
+    .Top-bannar{ background-image: url(images/top-banner.png); background-repeat:no-repeat ;}
+    
+    .i{width: 50%; padding-left: 2%;}
+    .B1{color: rgb(245, 245, 248); text-align: center; padding: 12px;
+        text-decoration: none; border-radius: 5px;  
+        background-color: rgb(102, 168, 3); font-weight: 520;
+        background-image: linear-gradient(rgb(255, 0, 0), rgb(99, 26, 184));
+        scroll-padding:tomato ;  scroll-padding-bottom: 5px; position: relative;top: 50px;}
+    .the-undead{background-image: url(images/dream-bg.png);background-repeat: no-repeat;background-position: right;position: static;}
 
-    }
+    
